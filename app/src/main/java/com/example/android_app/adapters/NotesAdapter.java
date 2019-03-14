@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.example.android_app.R;
+import com.example.android_app.callbacks.NoteEventListener;
 import com.example.android_app.model.Note;
 import com.example.android_app.utils.NoteUtils;
 

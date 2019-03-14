@@ -1,9 +1,11 @@
 package com.example.android_app.model;
 
 import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
+@Entity(tableName = "notes")
 public class Note {
     @PrimaryKey(autoGenerate = true)
     private int id; // default value
@@ -12,7 +14,7 @@ public class Note {
     @ColumnInfo(name = "date")
     private long noteDate;
 
-    @Ignore
+    @Ignore // we don't want to store this value on database so ignore it
     private boolean checked = false;
 
     public Note() {
