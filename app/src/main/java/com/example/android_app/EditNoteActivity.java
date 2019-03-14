@@ -18,7 +18,7 @@ import java.util.Date;
 public class EditNoteActivity extends AppCompatActivity {
     private EditText inputNote;
     private NotesDao dao;
-    private Note temp;
+    private com.example.android_app.model.Note temp;
     public static final String NOTE_EXTRA_Key = "note_id";
 
     @Override

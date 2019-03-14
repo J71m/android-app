@@ -5,7 +5,7 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import com.ixidev.simplenotepad.model.Note;
+import com.example.android_app.model.Note;
 
 /**
  * Created by ixi.Dv on 20/06/2018.

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ixidev.simplenotepad.EditNoteActivity">
+    tools:context="com.example.android_app.EditNoteActivity">
 
 
     <android.support.v7.widget.Toolbar
@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="top"
         android:ems="10"
-        android:hint="@string/whats_in_your_mind"
+        android:hint="@string/whats_on_your_mind"
         android:gravity="top"
         android:inputType="textMultiLine"
         android:paddingEnd="12dp"

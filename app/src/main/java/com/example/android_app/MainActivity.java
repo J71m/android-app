@@ -1,5 +1,7 @@
 package com.example.android_app;
 
+import android.app.AlertDialog;
+import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -29,6 +31,7 @@ import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.interfaces.OnCheckedChangeListener;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SwitchDrawerItem;
@@ -36,6 +39,8 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.example.android_app.EditNoteActivity.NOTE_EXTRA_Key;
 
 public class MainActivity extends AppCompatActivity implements NoteEventListener, Drawer.OnDrawerItemClickListener {
     private static final String TAG = "MainActivity";
@@ -48,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements NoteEventListener
     private FloatingActionButton fab;
     private SharedPreferences settings;
     public static final String THEME_Key = "app_theme";
-    public static final String APP_PREFERENCES="notepad_settings";
+    public static final String APP_PREFERENCES = "notepad_settings";
     private int theme;
 
     @Override
@@ -97,7 +102,6 @@ public class MainActivity extends AppCompatActivity implements NoteEventListener
                 .withOnCheckedChangeListener(new OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(IDrawerItem drawerItem, CompoundButton buttonView, boolean isChecked) {
-                        // TODO: 02/10/2018 change to darck theme and save it to settings
                         if (isChecked) {
                             settings.edit().putInt(THEME_Key, R.style.AppTheme_Dark).apply();
                         } else {
@@ -120,8 +124,7 @@ public class MainActivity extends AppCompatActivity implements NoteEventListener
         // navigation menu header
         AccountHeader header = new AccountHeaderBuilder().withActivity(this)
                 .addProfiles(new ProfileDrawerItem()
-                        .withEmail("feedback.mrzero@gmail.com")
-                        .withName("ixiDev")
+                        .withName("Tim Jaanson")
                         .withIcon(R.mipmap.ic_launcher_round))
                 .withSavedInstance(savedInstanceState)
                 .withHeaderBackground(R.drawable.ic_launcher_background)
