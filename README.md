@@ -2,9 +2,10 @@
 
 Normal                                |  Dark mode
 :------------------------------------:|:--------------------------------------:
-![](https://i.imgur.com/EYlIUdc.png)  |  ![](https://i.imgur.com/J2qWEVn.png)
+<img src="https://i.imgur.com/EYlIUdc.png" height="320">  |  <img src="https://i.imgur.com/J2qWEVn.png" height="320">
 
-
+<img src="https://i.imgur.com/EYlIUdc.png" width="256">
+<img src="https://i.imgur.com/J2qWEVn.png" width="256">
 
 
 Juhendina kasutasin: https://youtu.be/vUVMebxypzQ
