@@ -1,5 +1,8 @@
 # Simple notepad
 
+![default view](https://i.imgur.com/EYlIUdc.png)
+![dark mode](https://i.imgur.com/J2qWEVn.png)
+
 Juhendina kasutasin: https://youtu.be/vUVMebxypzQ
 Projekti tegemiseks kasutasin Android studiot windowsi peal. Projekti juurkataloogi on ka lisatud kompileeritud APK, mida on testitud
 Nokia 7 plus (9.0) ja Honor 5x (7.1.2) peal
