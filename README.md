@@ -1,5 +1,7 @@
 # Simple notepad
 
+<img src="https://i.imgur.com/EYlIUdc.png" width="48">
+
 ![default view](https://i.imgur.com/EYlIUdc.png)
 ![dark mode](https://i.imgur.com/J2qWEVn.png)
 
