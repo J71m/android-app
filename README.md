@@ -1,9 +1,8 @@
 # Simple notepad
 
-<img src="https://i.imgur.com/EYlIUdc.png" width="48">
+<img src="https://i.imgur.com/EYlIUdc.png" width="256">
+<img src="https://i.imgur.com/J2qWEVn.png" width="256">
 
-![default view](https://i.imgur.com/EYlIUdc.png)
-![dark mode](https://i.imgur.com/J2qWEVn.png)
 
 Juhendina kasutasin: https://youtu.be/vUVMebxypzQ
 Projekti tegemiseks kasutasin Android studiot windowsi peal. Projekti juurkataloogi on ka lisatud kompileeritud APK, mida on testitud
