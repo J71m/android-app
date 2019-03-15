@@ -1,7 +1,10 @@
 # Simple notepad
 
-<img style="float: left;" src="https://i.imgur.com/EYlIUdc.png" width="256">
-<img style="float: right;" src="https://i.imgur.com/J2qWEVn.png" width="256">
+Normal                                |  Dark mode
+:------------------------------------:|:--------------------------------------:
+![](https://i.imgur.com/EYlIUdc.png)  |  ![](https://i.imgur.com/J2qWEVn.png)
+
+
 
 
 Juhendina kasutasin: https://youtu.be/vUVMebxypzQ
