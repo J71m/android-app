@@ -1,7 +1,7 @@
 # Simple notepad
 
-<img src="https://i.imgur.com/EYlIUdc.png" width="256">
-<img src="https://i.imgur.com/J2qWEVn.png" width="256">
+<img style="float: left;" src="https://i.imgur.com/EYlIUdc.png" width="256">
+<img style="float: right;" src="https://i.imgur.com/J2qWEVn.png" width="256">
 
 
 Juhendina kasutasin: https://youtu.be/vUVMebxypzQ
